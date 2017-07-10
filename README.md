@@ -48,3 +48,5 @@ Run the emulator:
 cd cordova/
 cordova emulate android
 ```
+
+If that all works, you should see the Ember.js welcome page. Yipee!
