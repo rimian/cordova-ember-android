@@ -22,3 +22,9 @@ npm install
 ```
 
 The documentation at [ember-cli-cordova](https://github.com/poetic/ember-cli-cordova/blob/master/docs/getting-started.md) says you can set the platform in config but that doesn't seem to work. To install and build for Android, you'll need to pass the `--platform=android` flag in to your commands.
+
+To run a build run
+
+```
+ember cordova:build --platform=android
+```
