@@ -9,7 +9,7 @@ This is a basic Ember.js hello world install on Cordova using Android plugin. If
 - [ember-cli](http://www.ember-cli.com) (> 2.13)
 - [ember-cli-cordova](https://github.com/poetic/ember-cli-cordova)
 
-Note: The Cordova 7.0.1 emulator has a bug. See: https://issues.apache.org/jira/browse/CB-12981?jql=text%20~%20%22cannot%20read%20property%20%27%22
+Note: The Cordova 7.0.1 emulator has a bug. See: https://issues.apache.org/jira/browse/CB-12981
 
 ## Supported Platforms
 

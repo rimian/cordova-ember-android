@@ -199,7 +199,7 @@ module.exports.best_image = function() {
         for (var i in images) {
             var target = images[i].target;
             if(target) {
-                // see: https://issues.apache.org/jira/browse/CB-12981?jql=text%20~%20%22cannot%20read%20property%20%27%22
+                // see: https://issues.apache.org/jira/browse/CB-12981
                 // var num = target.split('(API level ')[1].replace(')', '');
                 var num = target.match(/\d+/)[0];
                 if (num == project_target) {
