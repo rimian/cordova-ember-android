@@ -33,6 +33,17 @@ ember cordova:build --platform=android
 
 ## The Emulator
 
+There's a compatibility issue with Android SDK and libstdc++ on Ubuntu:
+
+```
+sudo apt-get install lib64stdc++6
+cd ~/Android/Sdk/emulator/lib64/libstdc++
+sudo mv libstdc++.so.6 libstdc++.so.6.old ## backup the old file
+sudo ln -s /usr/lib64/libstdc++.so.6 libstdc++.so.6
+```
+
+Run the emulator:
+
 ```
 cd cordova/
 cordova emulate android
